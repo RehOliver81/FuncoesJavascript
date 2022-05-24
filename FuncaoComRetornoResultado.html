@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com Função</title>
+</head>
+<body>
+	<!-- Comentário para uma ou mais linha html -->
+	
+    <script>
+        // 
+		/* o comentário começa com o comando do javascript e pode ser mais
+			de mais de uma linha
+		*/
+		//function: palavra reserva para declarar uma função.
+		// após o nome da function deve haver parenteses.
+		
+		function soma(num1,num2){
+		//alert é uma função do Javascript
+		
+		
+		//alert ("Função SEM PARAMETROS Javascript");
+		 let total = num1 + num2;
+		return(total);
+		}
+		let numero1 = parseInt(prompt("Digite o 1º numero:"));
+		let numero2 = parseInt(prompt ("Digite o 2º numero:"));
+		
+		// = é operador de atribuição
+		let resultado = soma(numero1, numero2);
+		
+		document.write("<h1>");
+		document.write(resultado);
+		document.write("</h1>");
+		
+		
+		mostraMensagem("MsgUsuario"); //executa a função
+		
+		
+		
+		
+    </script>
+	
+    
+</body>
+</html>
